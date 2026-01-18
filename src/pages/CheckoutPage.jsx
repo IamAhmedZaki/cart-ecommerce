@@ -43,7 +43,8 @@ const CheckoutPage = () => {
       const response = await fetch(
         // 'https://cart-backend-nine.vercel.app/api/checkout/stripe-session',
         // For local development you can switch to:
-        'http://localhost:5000/api/checkout/stripe-session',
+        // 'http://localhost:5000/api/checkout/stripe-session',
+        // 'http://api.clubpromfg.com/api/checkout/stripe-session',
         {
           method: 'POST',
           headers: {

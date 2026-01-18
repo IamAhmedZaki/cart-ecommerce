@@ -1,4 +1,4 @@
-// export const BASE_API='https://cart-backend-nine.vercel.app/api'
+// export const BASE_API='https://api.clubpromfg.com/api'
 export const BASE_API='http://localhost:5000/api'
 
 async function request(endpoint, options = {}) {
